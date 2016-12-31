@@ -1,0 +1,858 @@
+
+/*//////////////////////////////////////
+	UNIVERSAL
+//////////////////////////////////////*/
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-weight: normal;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: Georgia, Times, Times New Roman, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+img,
+video {
+	max-width: 100%;
+}
+
+input, button, select, submit {
+	border: none;
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;	
+}
+
+
+
+/*//////////////////////////////////////
+	TEXT TRANSFORM
+//////////////////////////////////////*/
+
+/*Uppercase*/
+.login-title,
+.enhancements-banner,
+.enhancements-banner span,
+h2 {
+	text-transform: uppercase;
+}
+
+
+
+/*//////////////////////////////////////
+	LETTER SPACING
+//////////////////////////////////////*/
+
+.enhancements-banner h1,
+.enhancements-banner span,
+h2 {
+	letter-spacing: 4px;
+}
+
+
+
+/*//////////////////////////////////////
+	FONTS
+//////////////////////////////////////*/
+
+/*insert font name here*/
+
+
+
+
+/*//////////////////////////////////////
+	COLORS
+//////////////////////////////////////*/
+
+
+/*text black*/
+.uk-social-media li a,
+.ire-social-media li a {
+	color: black;
+}
+
+/*text gray*/
+.footer-nav a {
+	color: #8d8d8d;
+}
+
+/*text dark gray*/
+.gallery p {
+	color: #666666;
+}
+
+/*background black*/
+body,
+.header-utility,
+.header-nav,
+.form-expression,
+.main-footer-content {
+	background-color: black;
+}
+
+/*text copper*/
+.login-title,
+.site-search,
+.nav-item,
+.enhancements-banner h1,
+.enhancements-banner span,
+.form-expression h2,
+.gallery h2,
+.as-seen h2 {
+	color: #8a7e76;
+}
+
+/*text light copper*/
+
+.login-title:hover,
+.nav-item:hover {
+	color: #be998a;
+}
+
+/*text faded orange*/
+
+.footer-nav a:hover {
+	color: #be998a;
+}
+
+/*background faded orange*/
+
+.name,
+.mail,
+.location {
+	background-color: #be998a;
+}
+
+/*text white*/
+.join-cult h2 {
+	color: #fff;
+}
+
+/*text faded white*/
+.enhancements-banner p,
+.form-expression p,
+.join-cult p {
+	color: #c6c7c7;
+}
+
+
+
+
+/*//////////////////////////////////////
+	HEADER
+//////////////////////////////////////*/
+
+.header-utility {
+	padding: 12px 0;
+	margin: 0 auto;
+	max-width: 1600px;
+	display: none;
+}
+
+.utility-container {
+	float: right;
+}
+
+.login-title {
+	float: left;
+	letter-spacing: 1px;
+}
+
+.utility-container form {
+	float: left;
+}
+
+.site-search {
+	border-left: solid 1px #8a7e76;
+	margin-left: 50px; 
+}
+
+.search {
+	display: inline-block;
+	font-size: 17px;
+	width: 230px;
+	padding: 0 0 0 10px;
+	background-color: black;
+}
+
+.search-submit {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('../img/menu-toggle-artisan.png') no-repeat 0px center;
+	background-position: 8px 3px;
+	background-size: 50px 14px;
+	margin-right: 70px;
+}
+
+.search,
+.search-submit {
+	float: left;
+}
+
+.header-nav {
+	padding: 30px 17px 30px 20px;
+}
+
+.mobile-nav {
+	float: right;
+}
+
+.homepage-link {
+	float: left;
+}
+
+.magnifying-glass {
+	margin: 0 25px 0 -4px;
+	display: inline-block;
+	width: 28px;
+	height: 30px;
+	background: url('../img/menu-toggle-artisan.png') no-repeat 0px center;
+}
+
+.drop-menu {
+	display: inline-block;
+	width: 28px;
+	height: 30px;
+	background: url('../img/menu-toggle-artisan.png') no-repeat -28px center;
+}
+
+.nav-dt {
+	display: none;
+	font-size: 1rem;
+	padding-top: 35px;
+	margin: 0 auto;
+	max-width: 1600px;
+
+}
+
+.homepage-link-dt,
+.nav-dt nav {
+	display: inline-block;
+}
+
+.homepage-link-dt {
+	margin-left: 20px;
+	width: 163px;
+	float: left;
+}
+
+.nav-dt nav {
+	margin-right: 14px;
+	padding-top: 8px;
+	width: 80%;
+	float: right;
+	text-align: right;
+	line-height: 1.3;
+}
+
+.nav-item {
+	margin-left: 20px;
+}
+
+.header-banner {
+	height: 600px;
+	background: url('../img/hero.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.main-banner {
+	position: relative;
+}
+
+.main-banner img {
+	width: 240px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 470px;
+}
+
+
+
+
+/*//////////////////////////////////////
+	ENHANCEMENTS BANNER
+//////////////////////////////////////*/
+
+.enhancements-banner {
+	padding: 150px 15px 60px 15px;
+	background: url('../img/bg-beyond.jpg') no-repeat center;
+	text-align: center;
+	font-size: 12px;
+}
+
+.enhancements-banner h1 {
+	margin: 0 auto 25px;
+	max-width: 600px;
+	line-height: 1.3;
+}
+
+.p-1 {
+	font-size: 15px;
+	line-height: 1.5;
+	margin-bottom: 25px;
+}
+
+.p-2 {
+	text-transform: capitalize;
+	line-height: 1.7;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+.enhancements-banner span {
+	font-size: 24px;
+	line-height: 1.3;
+	text-transform: uppercase;
+}
+
+.enhancements-banner img {
+	display: none;
+}
+
+
+
+/*//////////////////////////////////////
+	IMAGE NAV & VIDEO CONTENT 1 & 2
+//////////////////////////////////////*/
+
+.image-column {
+	background-color: black;
+	float: left;
+	width: 33.3333%;
+	position: relative;
+	margin-bottom: -3px;
+}
+
+.image-link {
+	width: 100%;
+	opacity: .5;
+}
+
+.artisan-icon {
+	opacity: 0;
+	position: absolute;
+	margin-right: auto;
+	margin-left: auto;
+	right: 0;
+	left: 0;
+	bottom: 25px;
+}
+
+.image-column div:hover .image-link, .image-column div:hover .artisan-icon  {
+  opacity: 1;
+  transition: opacity .2s;
+}
+
+.video-content-1 video,
+.video-content-2 video {
+	width: 100%;
+}
+
+
+
+/*//////////////////////////////////////
+	FORM OF EXPRESSION
+//////////////////////////////////////*/
+
+.form-expression {
+	margin-top: -9px;
+	text-align: center;
+	padding: 60px 13px;
+}
+
+.form-expression h2 {
+	margin: 0 auto;
+	font-size: 27px;
+	max-width: 300px;
+	line-height: 1.4;
+}
+
+.form-expression p {
+	font-style: italic;
+	text-align: center;
+	max-width: 230px;
+	margin: 40px auto 20px auto;
+	line-height: 1.6;
+}
+
+.uk-social-media {
+	margin: 10px 0 45px;
+}
+
+.ire-social-media {
+	margin: 10px 0 5px;
+}
+
+.form-expression i {
+	padding: 6px 5px;
+}
+
+.form-expression i:hover {
+	opacity: .7;
+}
+
+.uk-social-media ul,
+.ire-social-media ul {
+	display: inline-block;
+}
+
+.uk-social-media ul {
+	background: url('../img/social-bg--uk.png') no-repeat;
+	padding: 0 50px;
+}
+
+.ire-social-media ul {
+	background: url('../img/social-bg--ire.png') no-repeat;
+	padding: 0 60px;
+}
+
+.uk-social-media li,
+.ire-social-media li {
+	display: inline-block;
+	font-size: 22px;
+}
+
+
+
+/*//////////////////////////////////////
+	GALLERY
+//////////////////////////////////////*/
+
+.gallery {
+	text-align: center;
+	background: url('../img/gallery-bg-tile.jpg');
+}
+
+.gallery-container {
+	padding: 0 50px 50px;
+	margin: 0 auto;
+	max-width: 1600px;
+}
+
+.gallery h2 {
+	font-size: 1.5rem;
+	line-height: 1.3;
+	padding: 40px 10px 45px;
+}
+
+.gallery p {
+	line-height: 1.5;
+}
+
+.gallery-nav
+
+.gallery-nav img {
+	margin-bottom: -85px;
+}
+
+
+
+/*//////////////////////////////////////
+	AS SEEN IN
+//////////////////////////////////////*/
+
+.as-seen {
+	text-align: center;
+	background: url('../img/gallery-bg-tile.jpg');
+	padding: 80px 20px 60px;
+}
+
+.as-seen h2 {
+	font-size: 1.6rem;
+	padding-bottom: 43px;
+}
+
+.as-seen-logos img {
+	padding: 0 20px 20px;
+}
+
+
+
+/*//////////////////////////////////////
+	JOIN THE CULT
+//////////////////////////////////////*/
+
+.join-cult {
+	text-align: center;
+	background: url('../img/join-the-cult-bg.jpg') no-repeat center;
+	background-size: cover;
+	padding: 25px 44px 20px;
+
+}
+
+.join-cult h2 {
+	font-size: 1.6rem;
+	line-height: 1.3;
+	padding: 18px 8px 35px;
+}
+
+.join-cult p {
+	line-height: 1.5;
+	padding-bottom: 53px;
+}
+
+.signup-form {
+	padding-bottom: 20px;
+}
+
+.name,
+.mail,
+.location,
+.submit {
+	display: block;
+	width: 100%;
+	padding: 11px;
+	margin-bottom: 10px;
+}
+
+
+
+/*//////////////////////////////////////
+	FOOTER
+//////////////////////////////////////*/
+
+.main-footer-content {
+	text-align: center;
+	padding: 50px 20px 60px;
+}
+
+.main-footer-content img {
+	margin-bottom: 30px;
+}
+
+.footer-nav a {
+	padding: 0 10px;
+	line-height: 1.5;
+	font-size: 17px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+
+
+/*///////////////////////////////
+////////////////////////////////
+	MEDIA QUERIES
+////////////////////////////////
+///////////////////////////////*/
+
+@media (min-width: 380px) {
+	
+	.uk-social-media {
+		margin: 10px 0 20px;
+	}
+
+	.form-expression i {
+		padding: 6px 14px;
+	}
+
+	.uk-social-media ul {
+		background: url('../img/social-bg--uk.png') no-repeat;
+		padding: 0 50px;
+	}
+
+	.ire-social-media ul {
+		background: url('../img/social-bg--ire.png') no-repeat;
+		padding: 0 53px;
+	}
+
+
+
+
+}
+
+
+@media (min-width: 768px) {
+
+/*header/////////////////////////////*/
+
+	.header-banner {
+		height: 984px;
+		background-size: cover;
+	}
+	
+	.main-banner img {
+		width: 300px;
+		top: 600px;
+		z-index: 2;
+	}
+
+
+
+/*enhancements banner//////////////////*/
+
+	.enhancements-banner {
+		padding: 300px 75px 330px;
+		position: relative;
+	}
+	.enhancements-banner h1,
+	.enhancements-banner span {
+		line-height: 1.5;
+		letter-spacing: 8px;
+		font-size: 1.6rem;
+	}
+
+	.p-1 {
+		font-size: 1rem;
+		letter-spacing: 2px;
+	}
+
+	.p-2 {
+		font-size: 1rem;
+	}
+
+	.enhancements-banner img {
+		width: 240px;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		bottom: -115px;
+		z-index: 2;
+	}
+
+	.enhancements-banner img {
+		display: inline-block;
+	}
+
+
+/*Gallery///////////////////////////////*/
+	
+
+	.gallery {
+		padding-bottom: 140px;
+	}
+
+	.gallery-frame {
+		float: left;
+		width: 33.3333%;
+	}
+
+	.name,
+	.mail,
+	.location {
+		float: left;
+		display: inline-block;
+		width: 199px;
+		height: 41px;
+		padding: 11px;
+		margin-right: 10px;
+	}
+
+	.submit {
+		width: 24px;
+		height: 41px;
+		text-indent: -9000px;
+		background: #fff url('../img/join-the-cult-icon--right.png') center no-repeat;
+	}
+
+/*///////////////FOOTER///////////////////////////////*/
+
+	.main-footer-content {
+		text-align: left;
+	}
+
+	.footer-nav a {
+		padding: 0 23px 0 0;
+	}
+
+
+}
+
+
+
+@media (min-width: 1000px) {
+
+/*//////////HEADER///////////////////////////////*/
+
+	.header-utility {
+		display: block;
+	}
+
+	.header-nav {
+		display: none;
+	}
+
+	.nav-dt {
+		display: block;
+	}
+
+	.header-banner img {
+		width: 460px;
+		bottom: -157px;
+	}
+
+/*enhancements banner//////////////////*/
+
+	.enhancements-banner {
+		padding: 280px 75px 140px;
+	}
+
+	.enhancements-banner h1,
+	.p-1,
+	.p-2,
+	.enhancements-banner span
+	 {
+	 	margin-right: auto;
+	 	margin-left: auto;
+		width: 786px;
+	}
+
+	.enhancements-banner h1,
+	.enhancements-banner span {
+		letter-spacing: 10px;
+		line-height: 1.4;
+	}
+
+	.enhancements-banner h1 {
+		font-size: 2.7rem;
+		margin-bottom: 150px;
+	}
+
+	.enhancements-banner span {
+		display: inline-block;
+		width: 550px;
+		font-size: 1.9rem;
+	}
+
+	.p-1 {
+		font-size: 1.1rem;
+	}
+
+	.p-2 {
+		margin-bottom: 100px;
+	}
+
+
+/*////////////IMAGE NAV//////////////////*/
+
+	.image-column {
+		width: 16.6666667%;
+	}
+
+
+/*////////////FORM OF EXPRESSION//////////////////*/
+
+	.expression-image {
+		float: left;
+		display: inline-block;
+		width: 50%;
+		height: 701.8px;
+		background: url('../img/expression-bg.jpg') no-repeat;
+		background-size: cover;
+	}
+
+	.form-expression {
+		float: left;
+		display: inline-block;
+		width: 50%;
+		padding: 52px 13px;
+	}
+
+	.form-expression h2 {
+		font-size: 36px;
+		letter-spacing: 8px;
+	}
+
+
+/*////////////GALLERY//////////////////*/
+
+	.gallery {
+		padding: 0 20px;
+		margin-top: -16px;
+	}
+
+	.gallery h2 {
+		font-size: 2rem;
+		letter-spacing: 9px;
+	}
+
+	.gallery p {
+		margin: 0 auto;
+		width: 820px;
+	}
+
+	.gallery-nav {
+		padding: 50px;
+	}
+
+
+/*////////////AS SEEN IN//////////////////*/
+
+	.as-seen h2 {
+		font-size: 1.9rem;
+		letter-spacing: 10px;
+	}
+
+
+/*////////////JOIN THE CULT//////////////////*/
+
+	.join-cult {
+		min-height: 626px;
+	}
+
+	.cult-container-outside {
+		padding: 0 20px;
+		margin: 0 auto;
+		max-width: 1600px;
+	}
+
+	.cult-container-inside {
+		width: 780px;
+		padding: 100px 40px 0;
+	}
+
+	.join-cult h2 {
+		font-size: 2.1rem;
+		letter-spacing: 8px;
+		margin-bottom: 30px;
+	}
+
+
+/*////////////FOOTER//////////////////*/
+
+	.main-footer-content {
+		max-width: 1600px;
+		margin: 0 auto;
+		padding: 50px 20px 20px;
+	}
+
+	.main-footer-content img {
+		float: right;
+	}
+
+
+}
+
+@media (min-width: 1160px) {
+	.image-column {
+		height: 685px;
+		overflow: hidden;
+	}
+
+
+
+}
